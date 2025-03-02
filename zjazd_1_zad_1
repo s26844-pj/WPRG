@@ -24,7 +24,7 @@ foreach ($owoce as $owoc) {
     $czy_p_info = $czy_p ? "Tak" : "Nie";
 
 
-    echo "Owoc: $reverse, Zaczyna się od P? $czy_p_info <br>";
+    echo "Owoc: $reverse, Zaczyna się od P? $czy_p_info \n";
 }
 
 ?>
