@@ -8,7 +8,7 @@
 <body>
 <h2>Uzupełnij dane</h2>
 
-<form action="Rezerwacje.php" method="post">
+<form action="rezerwacje.php" method="post">
     <?php
     if (isset($_POST['quantity'])) {
         $quantity = $_POST['quantity'];
