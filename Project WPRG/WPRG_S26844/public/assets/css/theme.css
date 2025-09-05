@@ -1,0 +1,20 @@
+
+/* Theme override */
+:root{--bg:#0b1220;--card:#111a2b;--muted:#8aa0c4;--text:#e8eef9;--primary:#6aa2ff;--danger:#ff6b6b;--radius:14px;}
+html,body{background:var(--bg);color:var(--text);}
+a{color:var(--primary);}
+.navbar{background:linear-gradient(90deg,#0c1426,#0f1b32)!important;border-bottom:1px solid rgba(255,255,255,.06);}
+.navbar .nav-link,.navbar .navbar-brand{color:var(--text)!important;opacity:.9;}
+.container .card,.card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);}
+.list-group-item{background:transparent;color:var(--text);border-color:rgba(255,255,255,.08);}
+.btn,.form-control,.form-select,.form-control-file{border-radius:var(--radius);}
+.btn-primary{background:var(--primary);border-color:var(--primary);}
+.btn-outline-primary{color:var(--primary);border-color:var(--primary);}
+.btn-outline-primary:hover{background:var(--primary);color:#0b1220;}
+.btn-danger{background:var(--danger);border-color:var(--danger);}
+.form-control,.form-control:focus{background:#0e172a;color:var(--text);border:1px solid rgba(255,255,255,.12);}
+hr{border-color:rgba(255,255,255,.08)}
+.hero{padding:36px 0;background:radial-gradient(1200px 400px at 10% -20%, rgba(106,162,255,.25), transparent 60%), radial-gradient(1200px 400px at 90% -20%, rgba(88,230,217,.18), transparent 60%);border-bottom:1px solid rgba(255,255,255,.06);margin-bottom:24px;}
+.hero h1{font-weight:700;letter-spacing:.5px;}
+.small-muted{color:var(--muted);font-size:.9rem;}
+.footer{color:var(--muted);padding:28px 0;border-top:1px solid rgba(255,255,255,.06);margin-top:48px;}
